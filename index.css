@@ -1,0 +1,264 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Smythe', sans-serif;
+    background: #F5F5F5;
+}
+
+.container{
+    background-color: #FFF;
+    width: 600px;
+    margin: 50 auto;
+}    
+
+p {
+    margin: 0;
+}
+
+/* typography */
+
+h2,h4{
+    color: #FFF;   
+    font-weight: 400;    
+}
+
+
+
+/* layout */
+
+header{
+    position: relative;
+    height: 167px;
+    margin: 0;
+    padding: 0;
+}
+
+main, header{
+    width: 600px;
+    margin: 50 auto;
+    
+}
+
+h2{
+    font-size: 40px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    margin: 0;
+}
+
+h4{
+    font-size: 22px;
+    position: absolute;
+    bottom: 45px;
+    left: 40px;
+    margin: 0;
+}
+
+
+
+/* items */
+
+
+.menu{
+    
+      
+    padding: 0 45px;
+    margin-bottom: 45px;   
+    
+    
+}
+
+.item{
+
+    padding-bottom: 45px;
+    display: flex;    
+    gap: 30px;
+    border-bottom: 1px solid lightgray;    
+    
+    
+}
+
+.food-emoji{
+    font-size: 78px;
+    margin: 0;
+}
+
+.general_text{
+    font-size: 28px;
+    margin: 0;
+}
+.ingredients_text{
+    font-size: 16px;
+    color:#8B8B8B;
+    margin: 8px 0px;
+}
+
+.price_text{
+
+    font-size: 24px;        
+    margin: 0;
+}
+
+.add_item{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 32px;
+    border: 2px solid #DEDEDE;
+    margin-left: auto;
+    align-self: center;
+    background: none;
+    padding: auto;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 200;
+    color: #3C3C3C;
+    
+}
+
+
+/* Order items  */
+
+.order{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.order_text{
+
+    font-size: 28px;            
+    
+}
+.order_header{
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+   
+}
+
+.order_item{
+    padding: 5px 45px;
+    display: flex;
+    gap: 13px;
+
+}
+
+
+.remove_btn{
+    font-family: 'Verdana';
+    font-size: 12px;
+    color: #BBBBBB;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+.item_price{
+    margin-left: auto;
+}
+
+
+.total_price{
+
+    display: flex;
+    margin: 20px 45px;
+    border-top: 1px solid #3C3C3C;
+    padding: 10px 0;  
+
+}
+
+.complete_order_btn{
+    margin: 20px 45px;
+    background: #16DB99;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 16px;
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 50px;
+
+}
+
+/* Modal */
+
+.modal{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 440px;
+    width: 520;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px 2px #666;
+
+}
+.modal-inner{
+
+    width: 475px;
+    margin: 0 auto;
+}
+
+.card-text{
+    
+    font-size: 24px;
+    color:#000000;
+    text-align: center;
+    
+}
+
+input{
+    margin-bottom: 15px; 
+    border: 1px solid #757575;
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+    color: #757575;
+
+}
+.modal-btn{
+
+    width: 100%;
+    margin-top: 30px;
+    background: #16DB99;
+    color: #FFFFFF;    
+    font-weight: 700;
+    font-size: 20px;
+    padding: 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+
+}
+
+
+.confirm-message{
+ 
+  background-color:#ECFDF5;
+  padding: 25px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.confirm-text{
+
+    color: #065F46;
+    font-size: 32px;
+  
+}
+
+/* utility */
+.hidden{
+    display: none;
+}

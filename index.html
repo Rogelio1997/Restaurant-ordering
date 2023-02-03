@@ -1,0 +1,52 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="index.css">
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+	<div class="container">
+		<header>
+			<img src="img/header-image.png">
+			<h2>Jimmy's dinner</h2>
+			<h4>The best burgers and pizzas in town.</h4>
+		</header>
+		<main>
+			<div class="feed" id="feed">
+				<!-- Food here!! -->
+			</div>
+			<div class="order hidden" id="order">
+				<!-- Order here -->
+			</div>
+		</main>
+		<!-- Modal -->
+		<div class="modal hidden" id="modal">
+			<div class="modal-inner">
+
+				<h5 class="card-text">Enter Card Details</h5>
+				<form id="card-details-form">
+					<input type="text" name="fullName" placeholder="Enter your name" required/>
+					<input type="text" name="card" placeholder="Enter your card number" required/>
+					<input type="text" name="cvv" placeholder="Enter CVV" required/>
+					<button type="submit" class="modal-btn" id="modal-btn">Pay</button>
+				</form>
+			</div>
+
+		</div>
+<!-- 		<div class="hidden confirm-message" id="confirm-message">
+			<p class="confirm-text">Thanks, James! Your order is on its way!</p>
+
+		</div>	 -->
+		<script src="index.js" type="module"></script>
+	</div>
+	
+</body>
+
+</html>
